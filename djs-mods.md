@@ -29,6 +29,6 @@
 
 [installwin] HaskellR/installwin.bat
   - Install script for Windows
-  - Note: must comment out IHaskell and hR build in stack.yaml
+  - Comment out IHaskell and hR build in stack.yaml for Windows
   - Assumes R is in PATH
   - Works with R 4.2.1 (not with R 4.5.1)
