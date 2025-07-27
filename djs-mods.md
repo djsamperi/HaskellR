@@ -27,3 +27,7 @@
   - Modified version of Dylan Simon's hR package.
   - Modified HaskellR/stack.yaml to build.
 
+[installwin] HaskellR/installwin.bat
+  - Install script for Windows
+  - Assumes R is in PATH
+  - Works with R 4.2.1 (not with R 4.5.1)
