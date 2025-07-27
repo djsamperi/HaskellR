@@ -7,11 +7,11 @@
 -- This file plots the Daubechies (1988) wavelet psi_N for 2 <= N <= 10,
 -- and indicates where the plot apears in the latter paper, or in other
 -- places (like Numerical Recipes in C). To compare with the R
--- implementation in the package rgarden, remember that R vectors are
+-- implementation in the package rsignal, remember that R vectors are
 -- 1-based, so the position index in plotwavelet here must be one
 -- unit smaller than the value used in the R implementation. This file
 -- is basically a Haskell implementation of what can be done in R using:
---   library(rgarden)
+--   library(rsignal)
 --   example(wt1d)
 -- The R implementation uses C++ to do the convolutions.
 
