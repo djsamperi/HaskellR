@@ -26,7 +26,11 @@ let
   rEnv = rWrapper.override {
     inherit R;
     # ggplot2 is required for ./IHaskell/examples/tutorial-ihaskell-inline-r.ipynb
-    packages = with rPackages; [ ggplot2 ];
+    packages = with rPackages; [
+      ggplot2
+      optimx
+      Rcpp
+    ];
   };
 
   python3Env = python3.withPackages (

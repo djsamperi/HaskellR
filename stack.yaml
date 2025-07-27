@@ -5,6 +5,8 @@ packages:
 - H
 - IHaskell
 - inline-r
+- mathlist
+- hR
 
 extra-deps:
 - ihaskell-blaze-0.3.0.1
@@ -12,3 +14,4 @@ extra-deps:
 nix:
   shell-file: ./shell.nix
   path: ["nixpkgs=./nixpkgs.nix"]
+  enable: true
